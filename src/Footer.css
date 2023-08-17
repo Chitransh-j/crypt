@@ -1,0 +1,12 @@
+.note{
+    word-spacing: 0.2rem;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.note a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
