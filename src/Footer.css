@@ -2,11 +2,14 @@
     word-spacing: 0.2rem;
     justify-content: center;
     text-align: center;
-    background-color: white;
-    color: black;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
 }
 .note a{
-    color: black;
-    background-color: white;
     text-decoration: none;
+}
+
+.note :hover{
+    color : rgba(99,222,247,1);
 }
