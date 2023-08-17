@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import Coin from './Coin';
+import Title from './Title';
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -40,6 +41,8 @@ function App() {
           />
         </form>
       </div>
+      <Title/>
+     
       {filteredCoins.map(coin => {
         return (
           <Coin
